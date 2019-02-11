@@ -162,7 +162,7 @@ def main():
     model.apply(model_init)
     print('finishing loading model...')
 
-    avg, std = np.load('../../data/cqt_avg_std.npy')
+    avg, std = np.load('cqt_avg_std.npy')
     inst_weight = [get_weight(Ytr)]
 
 	# start training
