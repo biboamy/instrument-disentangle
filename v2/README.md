@@ -1,7 +1,9 @@
-# Instrument streaming
+# Music Disentanglement
 
 This repo contains the timbre/pitch disentangled models present in the paper "Learning Disentangled Representations for
-Timber and Pitch in Music Audio"
+Timber and Pitch in Music Audio".
+
+This repo contains 10 instruments.
 
 ### Demo
 The demo website: [coming soon]
