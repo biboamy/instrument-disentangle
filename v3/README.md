@@ -1,6 +1,6 @@
 # Music Disentanglement
 
-This repo contains the timbre/pitch disentangled models present in the paper "Musical Composition Style Transfer via Disentangled Timbre Representations", IJCAI'19.
+This repo contains the timbre/pitch disentangled models present in the paper "[Musical Composition Style Transfer via Disentangled Timbre Representations](https://arxiv.org/pdf/1905.13567.pdf)", IJCAI'19.
 
 ### Demo
 The demo website: https://biboamy.github.io/disentangle_demo/result/
@@ -25,12 +25,12 @@ Details are described in the run.py file.
 ## Run the code
 1. Download the training dataset [Musescore](https://github.com/biboamy/instrument-streaming)
 2. Process the data via **process.py**
-2. Choose the input model from **run.py**
-3. Model will be saved into the directory: **data/model/**
+3. Choose the input model from **run.py**
+4. Model will be saved into the directory: **data/model/**
 
 ## Extract result
-4. For how to get the embedding and the instrument prediction result, please visit 
+5. For how to get the embedding and the instrument prediction result, please visit 
 https://github.com/biboamy/IAD/tree/master/IJCAI'19
 
 ## Train an IAD classifier by using embedding
-5. IAD classifier/run.py
+6. IAD classifier/run.py
